@@ -1,33 +1,33 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
+  title: `Codes Not For Sale`,                           // (* Required)
+  description: `안판다의 개발자 일지`,          // (* Required)
+  author: `Gwangjin An`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: 'https://',                      // (* Required)
+  siteUrl: 'https://code-anpanda.github.io',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
   /** Header */
-  profileImageFileName: '', // include filename extension ex.'profile.jpg'
+  profileImageFileName: 'profile.jpg', // include filename extension ex.'profile.jpg'
     // The Profile image file is located at path "./images/"
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
   comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
+  name: 'Gwangjin An',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
+  email: 'jianjoo1212@naver.com',
+  website: 'https://code-anpanda.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
-  github: '',                                                            // ex.'https://github.com/junhobaik'
+  github: 'https://github.com/code-anpanda',                                                            // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
-  disqusShortname: '',            // comments (Disqus sort-name)
+  disqusShortname: 'gwangjinan',            // comments (Disqus sort-name)
   enableSocialShare: true,        // Social share icon activation (Type of Value: Boolean. Not String)
 
   /** Optional */
